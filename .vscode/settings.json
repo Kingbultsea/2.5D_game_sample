@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "2.5D_Sample.sln"
+    "dotnet.defaultSolution": "2.5D_game_sample.sln"
 }

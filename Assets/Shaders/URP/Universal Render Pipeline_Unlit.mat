@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Universal Render Pipeline_Unlit
-  m_Shader: {fileID: 4800000, guid: d54b082f36fb09b45bd2d7b69de5c8ab, type: 3}
+  m_Shader: {fileID: 4800000, guid: af066c92d175d4236bc76482c8c3ffd4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
