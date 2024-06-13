@@ -578,6 +578,7 @@ GameObject:
   - component: {fileID: 506615725}
   - component: {fileID: 506615727}
   - component: {fileID: 506615726}
+  - component: {fileID: 506615728}
   m_Layer: 0
   m_Name: art_animation_role1_idle
   m_TagString: Untagged
@@ -594,7 +595,7 @@ Transform:
   m_GameObject: {fileID: 506615724}
   serializedVersion: 2
   m_LocalRotation: {x: -0.258819, y: -0, z: -0, w: 0.9659259}
-  m_LocalPosition: {x: -0.12889457, y: -0.093768865, z: -0.05926477}
+  m_LocalPosition: {x: -0.12889457, y: -0.093768865, z: 0}
   m_LocalScale: {x: 1.68, y: 1.68, z: 1.68}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -674,6 +675,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &506615728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506615724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5215107ab0f9e442383ba918df108b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &516755344
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,6 +1010,7 @@ GameObject:
   - component: {fileID: 786270580}
   - component: {fileID: 786270579}
   - component: {fileID: 786270578}
+  - component: {fileID: 786270581}
   m_Layer: 0
   m_Name: idle_00
   m_TagString: Untagged
@@ -1093,6 +1107,18 @@ Transform:
   - {fileID: 1054705959}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -30, y: 0, z: 0}
+--- !u!114 &786270581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786270577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5215107ab0f9e442383ba918df108b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1019416162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,6 +1689,7 @@ GameObject:
   - component: {fileID: 1397180153}
   - component: {fileID: 1397180155}
   - component: {fileID: 1397180154}
+  - component: {fileID: 1397180156}
   m_Layer: 0
   m_Name: art_animation_role2_idle
   m_TagString: Untagged
@@ -1679,7 +1706,7 @@ Transform:
   m_GameObject: {fileID: 1397180152}
   serializedVersion: 2
   m_LocalRotation: {x: -0.258819, y: -0, z: -0, w: 0.9659259}
-  m_LocalPosition: {x: 1.2721814, y: -0.8293739, z: -0.0500594}
+  m_LocalPosition: {x: 1.2721814, y: -0.8293739, z: 0}
   m_LocalScale: {x: 1.68, y: 1.68, z: 1.68}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1759,6 +1786,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1397180156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397180152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5215107ab0f9e442383ba918df108b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1404054851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,11 +2073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 184989485986805114, guid: 52fd18ed55f40284a95194249078b38e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.953979
+      value: 0.97337925
       objectReference: {fileID: 0}
     - target: {fileID: 184989485986805114, guid: 52fd18ed55f40284a95194249078b38e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.29987344
+      value: -0.22920047
       objectReference: {fileID: 0}
     - target: {fileID: 184989485986805114, guid: 52fd18ed55f40284a95194249078b38e, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2050,7 +2089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 184989485986805114, guid: 52fd18ed55f40284a95194249078b38e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -34.9
+      value: -26.5
       objectReference: {fileID: 0}
     - target: {fileID: 184989485986805114, guid: 52fd18ed55f40284a95194249078b38e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
